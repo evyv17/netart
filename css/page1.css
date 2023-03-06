@@ -1,0 +1,63 @@
+@import url("https://use.typekit.net/tdf2rmk.css");
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content:end;
+    flex-direction:column;
+    flex-wrap: wrap;
+    position:absolute;
+    top:40%;
+    left:30%;
+}
+
+
+.tinycontainer{
+    display: flex;
+    justify-content:end;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#question{
+    display: flex;
+    font-size: 60px;
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a{
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;  
+}
+
+#yes{
+    font-size: 40px;
+    color:greenyellow;
+}
+
+
+#no{
+    font-size: 40px;
+    color:rgb(255, 30, 0);
+}
+
+a:hover{
+    color:white;
+}

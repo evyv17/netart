@@ -1,0 +1,44 @@
+@import url("https://use.typekit.net/tdf2rmk.css");
+
+body{
+    background-color: black;
+    background-image: url(../images/meaninglessbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content:end;
+    flex-direction:column;
+    flex-wrap: wrap;
+    position:absolute;
+    top:40%;
+    left:5%;
+}
+
+
+a, p{
+    color:rgb(0, 57, 163);
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a{
+    font-size: 40pt;
+}
+a:hover{
+    color:aqua;
+}
+
+#text{
+    display: flex;
+    font-size: 60px;
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60pt;
+}

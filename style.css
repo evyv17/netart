@@ -1,7 +1,75 @@
+@import url("https://use.typekit.net/tdf2rmk.css");
+
+
 body{
-    background-color: black;
+  background-color: black;
+  background-image: url(images/indexbackground.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+p, h1{
+    color:rgb(0, 0, 0);
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 60pt;
 }
 
 a{
-    
+    font-size:30pt;
+    color:rgb(0, 0, 0);
+    font-family: "degular-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
 }
+
+a:hover{
+    color:aqua;
+}
+
+.typewriter{
+    display: flex;
+    justify-content:end;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    position:absolute;
+    top:70%;
+    left:10%;
+}
+
+.typewriter h1{
+    overflow: hidden; 
+    border-right: .15em solid rgb(0, 0, 0); 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+        typing 3.0s steps(40, end),
+        blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
+
+.nextappear{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    opacity: 0%;
+  }
+
+  @keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
