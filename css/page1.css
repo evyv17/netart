@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/tdf2rmk.css");
 
 body{
-    background-color: black;
+    background-image: url(../images/bridgeway.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .container{
@@ -21,6 +23,11 @@ body{
     flex-direction:row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.tinycontainer a{
+    color: white;
+    font-size: 40pt;
 }
 
 #question{
@@ -47,17 +54,11 @@ a{
     text-decoration: none;  
 }
 
-#yes{
-    font-size: 40px;
+#yes a:hover{
     color:greenyellow;
 }
 
 
-#no{
-    font-size: 40px;
+#no a:hover{
     color:rgb(255, 30, 0);
-}
-
-a:hover{
-    color:white;
 }

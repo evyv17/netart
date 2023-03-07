@@ -65,7 +65,7 @@ a:hover{
 .nextappear{
     animation-name: fadeIn;
     animation-duration: 3s;
-    animation-delay: 5s;
+    animation-delay: 4s;
     opacity: 0%;
   }
 
@@ -73,3 +73,7 @@ a:hover{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  /* display:flex;
+     align-items:center; 
+     justify-content: center; */

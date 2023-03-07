@@ -1,7 +1,9 @@
 @import url("https://use.typekit.net/tdf2rmk.css");
 
 body{
-    background-color: black;
+    background-image: url(../images/gradientBW.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
@@ -11,35 +13,10 @@ body{
     flex-direction:column;
     flex-wrap: wrap;
     position:absolute;
-    top:40%;
-    left:30%;
+    top:50%;
+    left:10%;
 }
 
-
-.tinycontainer{
-    display: flex;
-    justify-content:end;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-#question{
-    display: flex;
-    font-size: 60px;
-    font-family: "degular-display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    
-}
-
-#yes{
-    font-size: 40px;
-}
-
-#no{
-    font-size: 40px;
-}
 
 a, p{
     color:rgb(255, 255, 255);
@@ -48,6 +25,7 @@ a, p{
     font-style: normal;
     text-decoration: none;
 }
+
 a{
     font-size:40pt;
 }
@@ -58,8 +36,14 @@ a:hover{
 
 #text{
     display: flex;
-    font-size: 60px;
+    font-size: 70px;
     font-family: "degular-display", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+#turnpage a{
+    position: absolute;
+    top: 60%;
+    right: 10%;
 }

@@ -1,8 +1,7 @@
 @import url("https://use.typekit.net/tdf2rmk.css");
 
 body{
-    background-color: black;
-    background-image: url(../images/meaninglessbackground.jpg);
+    background-image: url(../images/nomeaning.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -18,9 +17,8 @@ body{
     left:5%;
 }
 
-
 a, p{
-    color:rgb(0, 57, 163);
+    color:rgb(255, 255, 255);
     font-family: "degular-display", sans-serif;
     font-weight: 700;
     font-style: normal;
