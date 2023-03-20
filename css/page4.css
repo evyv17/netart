@@ -2,7 +2,7 @@
 
 body{
     background-color: black;
-    background-image: url(../images/pixelatedgalaxy.jpg);
+    background-image: url(../images/space.gif);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -12,9 +12,16 @@ body{
     flex-direction:column;
     flex-wrap: wrap;
     position:absolute;
-    top:10%;
     align-items:center; 
     justify-content: center;
+    position: absolute;
+    top: 25%;
+}
+
+#turnpage{
+    position:fixed;
+    right: 20%;
+    bottom: 10%;
 }
 
 a, p{

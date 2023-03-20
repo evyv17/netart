@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/tdf2rmk.css");
 
 body{
-    background-image: url(../images/hillbackground.jpg);
+    background-image: url(../images/hillgif.gif);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -13,19 +13,25 @@ body{
     flex-wrap:wrap;
     justify-content: flex-start;
     position:absolute;
-    top:10%;
+    top:5%;
     left:5%;
     width:40%;
+}
+
+#return{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
 }
 
 
 a, p{
     color:rgb(255, 255, 255);
     font-family: "degular-display", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 a:hover{

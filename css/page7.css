@@ -8,17 +8,20 @@ body{
 }
 
 
-
 .container{
     display: flex;
     justify-content:end;
     flex-direction:column;
     flex-wrap: wrap;
     position:absolute;
-    top:40%;
-    left:30%;
-}
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top:35%;
+    left:28%;
+    width:50%;
 
+}
 
 .tinycontainer{
     display: flex;
@@ -34,32 +37,10 @@ body{
     font-family: "degular-display", sans-serif;
     font-weight: 700;
     font-style: normal;
-    
-}
-
-#yes{
-    font-size: 40px;
-}
-
-#no{
-    font-size: 40px;
-}
-
-p{
+    text-justify: center;
     color:rgb(255, 255, 255);
-    font-family: "degular-display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
     text-decoration: none;
-}
-
-
-#text{
-    display: flex;
-    font-size: 60px;
-    font-family: "degular-display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    text-align: center;
 }
 
 a{
@@ -68,7 +49,9 @@ a{
     font-weight: 700;
     font-style: normal;
     text-decoration: none;  
+    font-size: 40px;
 }
+
 
 #yes a:hover{
     color:greenyellow;
